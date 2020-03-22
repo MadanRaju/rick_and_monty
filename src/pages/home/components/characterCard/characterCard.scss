@@ -1,0 +1,199 @@
+@media only screen and (min-width: 1024px) {
+    .contentContainer {
+        display: inline-block;
+        width: 100%;
+        background-color: #25272E;
+        .cardContainer {
+            float: left;
+            max-width: calc(25% - 20px);
+            border-radius: 2px;
+            margin: 10px;
+            .title {
+                img {
+                    width: 100%;
+                }
+                .nameContainer {
+                    // position: relative;
+                    // top: -62px;
+                    padding: 10px;
+                    color: #F9F0E9;
+                    .name {
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                    .basicInfoContainer {
+                        display: inline-block;
+                        width: 100%;
+                        .id {
+                            float: left;
+                            max-width: 30%;
+                        }
+                        .created {
+                            float: left;
+                            max-width: 70%;
+                        }
+                    }
+                }
+            }
+            .characterInfoContainer {
+                padding: 10px;
+                background-color: #363636;
+                border-radius: 5px;
+                .characterInfo {
+                    display: inline-block;
+                    width: 100%;
+                    padding: 5px 0;
+                    border-bottom: 2px solid;
+                    .heading {
+                        float: left;
+                        max-width: 30%;
+                        color: #989898;
+                    }
+                    .value {
+                        float: right;
+                        max-width: 70%;
+                        color: #F78800;
+                        max-height: 20px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .contentContainer {
+        display: inline-block;
+        width: 100%;
+        background-color: #25272E;
+        .cardContainer {
+            float: left;
+            max-width: calc(25% - 20px);
+            border-radius: 2px;
+            margin: 10px;
+            .title {
+                img {
+                    width: 100%;
+                } 
+                .nameContainer {
+                    // position: relative;
+                    // top: -62px;
+                    padding: 10px;
+                    color: #F9F0E9;
+                    .name {
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                    .basicInfoContainer {
+                        display: inline-block;
+                        width: 100%;
+                        .id {
+                            float: left;
+                            max-width: 30%;
+                        }
+                        .created {
+                            float: left;
+                            max-width: 70%;
+                        }
+                    }
+                }
+            }
+            .characterInfoContainer {
+                padding: 10px;
+                background-color: #363636;
+                border-radius: 5px;
+                font-size: 12px;
+                .characterInfo {
+                    display: inline-block;
+                    width: 100%;
+                    padding: 5px 0;
+                    border-bottom: 2px solid;
+                    .heading {
+                        float: left;
+                        max-width: 30%;
+                        color: #989898;
+                    }
+                    .value {
+                        float: right;
+                        max-width: 70%;
+                        color: #F78800;
+                        max-height: 18px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    .contentContainer {
+        display: inline-block;
+        width: 100%;
+        background-color: #25272E;
+        .cardContainer {
+            float: left;
+            max-width: calc(50% - 20px);
+            border-radius: 2px;
+            margin: 10px;
+            .title {
+                img {
+                    width: 100%;
+                } 
+                .nameContainer {
+                    // position: relative;
+                    // top: -62px;
+                    padding: 10px;
+                    color: #F9F0E9;
+                    .name {
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                    .basicInfoContainer {
+                        display: inline-block;
+                        width: 100%;
+                        .id {
+                            float: left;
+                            max-width: 30%;
+                        }
+                        .created {
+                            float: left;
+                            max-width: 70%;
+                        }
+                    }
+                }
+            }
+            .characterInfoContainer {
+                padding: 10px;
+                background-color: #363636;
+                border-radius: 5px;
+                font-size: 10px;
+                .characterInfo {
+                    display: inline-block;
+                    width: 100%;
+                    padding: 5px 0;
+                    border-bottom: 2px solid;
+                    .heading {
+                        float: left;
+                        max-width: 30%;
+                        color: #989898;
+                    }
+                    .value {
+                        float: right;
+                        max-width: 70%;
+                        color: #F78800;
+                        max-height: 18px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+    }    
+}

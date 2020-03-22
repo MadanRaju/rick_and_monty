@@ -1,0 +1,6 @@
+{
+    "api": {
+        "baseUrl": "https://rickandmortyapi.com/api"
+    },
+    "env": "DEV"
+}

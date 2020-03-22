@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1024px) {
+    .homePageContainer {
+      min-height: 100vh;
+      max-width: 1280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      font-family: 'Lato';
+      .loaderContainer {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .paginationContainer {
+        padding: 20px;
+      }
+      .operationContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .homePageContainer {
+      min-height: 100vh;
+      max-width: 1280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      font-family: 'Lato';
+      .loaderContainer {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .paginationContainer {
+        padding: 20px;
+      }
+      .operationContainer {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        padding: 10px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 360px) and (max-width: 767px) {
+    .homePageContainer {
+      min-height: 100vh;
+      max-width: 1280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      font-family: 'Lato';
+      .loaderContainer {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      .paginationContainer {
+        padding: 20px;
+      }
+      .operationContainer {
+        // display: flex;
+        // flex-direction: row;
+        width: 100%;
+        // justify-content: space-around;
+        padding: 10px;
+        .sortOperationContainer {
+          padding: 10px;
+        }
+        .searchOperationContainer {
+          padding: 10px;
+        }
+        .filterOperationContainer {
+          padding: 10px 10px 30px 10px;
+        }
+      }
+    }
+  }
